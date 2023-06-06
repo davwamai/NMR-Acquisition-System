@@ -1,0 +1,369 @@
+timestamp=[2023-05-23 12:12:55], mode=WORKBENCH_START, duration=0:00:04.547, duration_ms=4547, data={}
+timestamp=[2023-05-23 12:12:55], mode=WORKBENCH_UI_INIT, duration=0:00:00.442, duration_ms=442, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2023-05-23 12:12:58], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:02.382, duration_ms=2382, data={}
+timestamp=[2023-05-23 12:18:19], mode=PLATFORM_GENERATION, duration=0:00:30.409, duration_ms=30409, data={name=ZMOD_ADC_DAC}
+timestamp=[2023-05-23 12:18:19], mode=BUILD, duration=0:00:00.225, duration_ms=225, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=true}
+timestamp=[2023-05-23 12:18:25], mode=BUILD, duration=0:00:03.473, duration_ms=3473, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-23 12:18:25], mode=BUILD, duration=0:00:00.161, duration_ms=161, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=true}
+timestamp=[2023-05-23 12:18:27], mode=BUILD, duration=0:00:01.324, duration_ms=1324, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-23 12:30:34], mode=BUILD, duration=0:00:01.592, duration_ms=1592, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-23 12:30:36], mode=BUILD, duration=0:00:01.322, duration_ms=1322, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-23 12:32:25], mode=BUILD, duration=0:00:00.474, duration_ms=474, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-23 12:32:26], mode=BUILD, duration=0:00:01.318, duration_ms=1318, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-23 12:52:55], mode=BUILD, duration=0:00:00.719, duration_ms=719, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-23 12:52:58], mode=BUILD, duration=0:00:03.353, duration_ms=3353, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-23 12:56:29], mode=PLATFORM_GENERATION, duration=0:00:03.364, duration_ms=3364, data={name=ZMOD_ADC_DAC}
+timestamp=[2023-05-23 12:57:18], mode=PLATFORM_GENERATION, duration=0:00:46.764, duration_ms=46764, data={name=ZMOD_ADC_DAC}
+timestamp=[2023-05-23 12:57:40], mode=BUILD, duration=0:00:02.519, duration_ms=2519, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-23 12:57:42], mode=BUILD, duration=0:00:01.270, duration_ms=1270, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-23 13:01:29], mode=PLATFORM_GENERATION, duration=0:00:03.158, duration_ms=3158, data={name=ZMOD_ADC_DAC}
+timestamp=[2023-05-23 13:01:29], mode=BUILD, duration=0:00:00.216, duration_ms=216, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=true}
+timestamp=[2023-05-23 13:01:29], mode=BUILD, duration=0:00:00.155, duration_ms=155, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=true}
+timestamp=[2023-05-23 13:02:20], mode=PLATFORM_GENERATION, duration=0:00:43.763, duration_ms=43763, data={name=ZMOD_ADC_DAC}
+timestamp=[2023-05-23 13:02:25], mode=BUILD, duration=0:00:03.452, duration_ms=3452, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-23 13:02:31], mode=BUILD, duration=0:00:01.270, duration_ms=1270, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-23 13:17:06], mode=PLATFORM_GENERATION, duration=0:00:01.596, duration_ms=1596, data={name=ZMOD_ADC_DAC}
+timestamp=[2023-05-23 13:17:06], mode=BUILD, duration=0:00:00.223, duration_ms=223, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=true}
+timestamp=[2023-05-23 13:17:09], mode=BUILD, duration=0:00:03.143, duration_ms=3143, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-23 13:17:16], mode=BUILD, duration=0:00:06.078, duration_ms=6078, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-23 13:29:24], mode=PLATFORM_GENERATION, duration=0:00:03.160, duration_ms=3160, data={name=ZMOD_ADC_DAC}
+timestamp=[2023-05-23 13:29:24], mode=BUILD, duration=0:00:00.220, duration_ms=220, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=true}
+timestamp=[2023-05-23 13:29:24], mode=BUILD, duration=0:00:00.153, duration_ms=153, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=true}
+timestamp=[2023-05-23 13:29:29], mode=PLATFORM_GENERATION, duration=0:00:01.454, duration_ms=1454, data={name=ZMOD_ADC_DAC}
+timestamp=[2023-05-23 13:30:40], mode=PLATFORM_GENERATION, duration=0:00:43.844, duration_ms=43844, data={name=ZMOD_ADC_DAC}
+timestamp=[2023-05-23 13:30:51], mode=BUILD, duration=0:00:03.143, duration_ms=3143, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-23 13:30:57], mode=BUILD, duration=0:00:05.576, duration_ms=5576, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-23 13:32:27], mode=BUILD, duration=0:00:00.464, duration_ms=464, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-23 13:32:33], mode=BUILD, duration=0:00:05.571, duration_ms=5571, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-23 14:16:29], mode=BUILD, duration=0:00:00.469, duration_ms=469, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-23 14:16:35], mode=BUILD, duration=0:00:05.618, duration_ms=5618, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-23 14:17:41], mode=BUILD, duration=0:00:00.465, duration_ms=465, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-23 14:17:48], mode=BUILD, duration=0:00:06.982, duration_ms=6982, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-23 14:18:03], mode=BUILD, duration=0:00:00.462, duration_ms=462, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-23 14:18:09], mode=BUILD, duration=0:00:05.612, duration_ms=5612, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-23 14:19:53], mode=BUILD, duration=0:00:01.225, duration_ms=1225, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-23 14:19:59], mode=BUILD, duration=0:00:05.620, duration_ms=5620, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-23 16:17:19], mode=PLATFORM_GENERATION, duration=0:00:01.666, duration_ms=1666, data={name=ZMOD_ADC_DAC}
+timestamp=[2023-05-23 16:17:34], mode=BUILD, duration=0:00:01.226, duration_ms=1226, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-23 16:17:45], mode=BUILD, duration=0:00:05.663, duration_ms=5663, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 12:22:18], mode=PLATFORM_GENERATION, duration=0:00:05.895, duration_ms=5895, data={name=ZMOD_ADC_DAC}
+timestamp=[2023-05-24 12:22:18], mode=BUILD, duration=0:00:00.276, duration_ms=276, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=true}
+timestamp=[2023-05-24 12:22:18], mode=BUILD, duration=0:00:00.157, duration_ms=157, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=true}
+timestamp=[2023-05-24 12:23:09], mode=PLATFORM_GENERATION, duration=0:00:47.679, duration_ms=47679, data={name=ZMOD_ADC_DAC}
+timestamp=[2023-05-24 12:23:12], mode=BUILD, duration=0:00:03.522, duration_ms=3522, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 12:23:15], mode=BUILD, duration=0:00:01.982, duration_ms=1982, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 12:24:03], mode=BUILD, duration=0:00:01.231, duration_ms=1231, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 12:24:10], mode=BUILD, duration=0:00:05.766, duration_ms=5766, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 12:47:49], mode=BUILD, duration=0:00:01.231, duration_ms=1231, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 12:49:47], mode=BUILD, duration=0:00:01.397, duration_ms=1397, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 12:51:14], mode=BUILD, duration=0:00:01.394, duration_ms=1394, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 12:51:20], mode=BUILD, duration=0:00:05.837, duration_ms=5837, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 13:05:38], mode=PLATFORM_GENERATION, duration=0:00:03.154, duration_ms=3154, data={name=ZMOD_ADC_DAC}
+timestamp=[2023-05-24 13:05:38], mode=BUILD, duration=0:00:00.218, duration_ms=218, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=true}
+timestamp=[2023-05-24 13:05:38], mode=BUILD, duration=0:00:00.154, duration_ms=154, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=true}
+timestamp=[2023-05-24 13:06:35], mode=PLATFORM_GENERATION, duration=0:00:44.677, duration_ms=44677, data={name=ZMOD_ADC_DAC}
+timestamp=[2023-05-24 13:06:38], mode=BUILD, duration=0:00:03.242, duration_ms=3242, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 13:06:44], mode=BUILD, duration=0:00:05.670, duration_ms=5670, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 13:12:34], mode=BUILD, duration=0:00:01.244, duration_ms=1244, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 13:13:04], mode=BUILD, duration=0:00:00.465, duration_ms=465, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 13:13:10], mode=BUILD, duration=0:00:05.669, duration_ms=5669, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 13:22:09], mode=BUILD, duration=0:00:01.225, duration_ms=1225, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 13:22:15], mode=BUILD, duration=0:00:05.839, duration_ms=5839, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 13:25:39], mode=BUILD, duration=0:00:01.175, duration_ms=1175, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 13:25:45], mode=BUILD, duration=0:00:05.787, duration_ms=5787, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 13:37:01], mode=BUILD, duration=0:00:01.229, duration_ms=1229, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 13:37:07], mode=BUILD, duration=0:00:05.840, duration_ms=5840, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 13:39:45], mode=BUILD, duration=0:00:01.229, duration_ms=1229, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 13:39:52], mode=BUILD, duration=0:00:05.834, duration_ms=5834, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 13:40:17], mode=PLATFORM_GENERATION, duration=0:00:03.212, duration_ms=3212, data={name=ZMOD_ADC_DAC}
+timestamp=[2023-05-24 13:40:18], mode=BUILD, duration=0:00:00.219, duration_ms=219, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=true}
+timestamp=[2023-05-24 13:40:18], mode=BUILD, duration=0:00:00.155, duration_ms=155, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=true}
+timestamp=[2023-05-24 13:41:13], mode=PLATFORM_GENERATION, duration=0:00:44.705, duration_ms=44705, data={name=ZMOD_ADC_DAC}
+timestamp=[2023-05-24 13:41:17], mode=BUILD, duration=0:00:03.364, duration_ms=3364, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 13:41:23], mode=BUILD, duration=0:00:05.670, duration_ms=5670, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 13:42:25], mode=BUILD, duration=0:00:01.226, duration_ms=1226, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 13:42:31], mode=BUILD, duration=0:00:05.667, duration_ms=5667, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 14:47:17], mode=BUILD, duration=0:00:02.139, duration_ms=2139, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 14:47:26], mode=BUILD, duration=0:00:07.958, duration_ms=7958, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 14:47:31], mode=BUILD, duration=0:00:00.464, duration_ms=464, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 14:47:37], mode=BUILD, duration=0:00:05.664, duration_ms=5664, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 14:48:31], mode=BUILD, duration=0:00:01.181, duration_ms=1181, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 14:48:37], mode=BUILD, duration=0:00:05.623, duration_ms=5623, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 15:22:33], mode=BUILD, duration=0:00:01.228, duration_ms=1228, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 15:22:39], mode=BUILD, duration=0:00:05.720, duration_ms=5720, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 15:23:15], mode=PLATFORM_GENERATION, duration=0:00:03.429, duration_ms=3429, data={name=ZMOD_ADC_DAC}
+timestamp=[2023-05-24 15:23:15], mode=BUILD, duration=0:00:00.221, duration_ms=221, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=true}
+timestamp=[2023-05-24 15:23:15], mode=BUILD, duration=0:00:00.155, duration_ms=155, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=true}
+timestamp=[2023-05-24 15:24:09], mode=PLATFORM_GENERATION, duration=0:00:47.399, duration_ms=47399, data={name=ZMOD_ADC_DAC}
+timestamp=[2023-05-24 15:24:12], mode=BUILD, duration=0:00:03.347, duration_ms=3347, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 15:24:18], mode=BUILD, duration=0:00:05.670, duration_ms=5670, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 15:27:07], mode=BUILD, duration=0:00:01.233, duration_ms=1233, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 15:27:13], mode=BUILD, duration=0:00:05.669, duration_ms=5669, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 15:28:16], mode=BUILD, duration=0:00:01.175, duration_ms=1175, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 15:28:22], mode=BUILD, duration=0:00:05.662, duration_ms=5662, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 15:33:48], mode=BUILD, duration=0:00:01.268, duration_ms=1268, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 15:33:54], mode=BUILD, duration=0:00:05.710, duration_ms=5710, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 15:35:23], mode=BUILD, duration=0:00:01.252, duration_ms=1252, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 15:35:29], mode=BUILD, duration=0:00:05.660, duration_ms=5660, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 15:38:08], mode=BUILD, duration=0:00:01.248, duration_ms=1248, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 15:38:14], mode=BUILD, duration=0:00:05.666, duration_ms=5666, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 15:39:06], mode=BUILD, duration=0:00:01.185, duration_ms=1185, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 15:39:12], mode=BUILD, duration=0:00:05.665, duration_ms=5665, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 15:40:02], mode=BUILD, duration=0:00:01.187, duration_ms=1187, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 15:40:15], mode=BUILD, duration=0:00:00.506, duration_ms=506, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 15:40:21], mode=BUILD, duration=0:00:05.718, duration_ms=5718, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 15:41:00], mode=BUILD, duration=0:00:01.200, duration_ms=1200, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 15:41:06], mode=BUILD, duration=0:00:05.706, duration_ms=5706, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 15:42:03], mode=BUILD, duration=0:00:01.184, duration_ms=1184, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 15:42:09], mode=BUILD, duration=0:00:05.672, duration_ms=5672, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 15:43:06], mode=BUILD, duration=0:00:01.201, duration_ms=1201, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 15:43:12], mode=BUILD, duration=0:00:05.693, duration_ms=5693, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 15:43:55], mode=PLATFORM_GENERATION, duration=0:00:03.220, duration_ms=3220, data={name=ZMOD_ADC_DAC}
+timestamp=[2023-05-24 15:43:55], mode=BUILD, duration=0:00:00.190, duration_ms=190, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=true}
+timestamp=[2023-05-24 15:43:55], mode=BUILD, duration=0:00:00.176, duration_ms=176, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=true}
+timestamp=[2023-05-24 15:44:43], mode=PLATFORM_GENERATION, duration=0:00:45.077, duration_ms=45077, data={name=ZMOD_ADC_DAC}
+timestamp=[2023-05-24 15:44:46], mode=BUILD, duration=0:00:03.231, duration_ms=3231, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 15:44:52], mode=BUILD, duration=0:00:05.667, duration_ms=5667, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 15:56:30], mode=BUILD, duration=0:00:00.750, duration_ms=750, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 15:56:36], mode=BUILD, duration=0:00:05.674, duration_ms=5674, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 15:58:17], mode=PLATFORM_GENERATION, duration=0:00:03.212, duration_ms=3212, data={name=ZMOD_ADC_DAC}
+timestamp=[2023-05-24 15:58:18], mode=BUILD, duration=0:00:00.245, duration_ms=245, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=true}
+timestamp=[2023-05-24 15:58:18], mode=BUILD, duration=0:00:00.174, duration_ms=174, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=true}
+timestamp=[2023-05-24 15:59:07], mode=PLATFORM_GENERATION, duration=0:00:45.001, duration_ms=45001, data={name=ZMOD_ADC_DAC}
+timestamp=[2023-05-24 15:59:10], mode=BUILD, duration=0:00:03.248, duration_ms=3248, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 15:59:16], mode=BUILD, duration=0:00:05.682, duration_ms=5682, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 16:00:00], mode=BUILD, duration=0:00:01.189, duration_ms=1189, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 16:00:06], mode=BUILD, duration=0:00:05.666, duration_ms=5666, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 16:13:39], mode=BUILD, duration=0:00:01.250, duration_ms=1250, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 16:13:45], mode=BUILD, duration=0:00:05.734, duration_ms=5734, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 16:15:02], mode=PLATFORM_GENERATION, duration=0:00:03.219, duration_ms=3219, data={name=ZMOD_ADC_DAC}
+timestamp=[2023-05-24 16:15:03], mode=BUILD, duration=0:00:00.249, duration_ms=249, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=true}
+timestamp=[2023-05-24 16:15:03], mode=BUILD, duration=0:00:00.173, duration_ms=173, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=true}
+timestamp=[2023-05-24 16:24:34], mode=PLATFORM_GENERATION, duration=0:00:45.403, duration_ms=45403, data={name=ZMOD_ADC_DAC}
+timestamp=[2023-05-24 16:24:37], mode=BUILD, duration=0:00:03.249, duration_ms=3249, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 16:24:43], mode=BUILD, duration=0:00:05.726, duration_ms=5726, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 16:29:04], mode=BUILD, duration=0:00:01.191, duration_ms=1191, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 16:29:10], mode=BUILD, duration=0:00:05.676, duration_ms=5676, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 16:34:11], mode=BUILD, duration=0:00:01.191, duration_ms=1191, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 16:34:17], mode=BUILD, duration=0:00:05.677, duration_ms=5677, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 16:37:42], mode=BUILD, duration=0:00:01.254, duration_ms=1254, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 16:37:49], mode=BUILD, duration=0:00:05.711, duration_ms=5711, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 16:39:38], mode=BUILD, duration=0:00:00.492, duration_ms=492, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 16:39:44], mode=BUILD, duration=0:00:05.730, duration_ms=5730, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 16:41:44], mode=BUILD, duration=0:00:01.242, duration_ms=1242, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 16:41:50], mode=BUILD, duration=0:00:05.725, duration_ms=5725, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 16:47:11], mode=BUILD, duration=0:00:01.256, duration_ms=1256, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 16:47:17], mode=BUILD, duration=0:00:05.740, duration_ms=5740, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 16:48:13], mode=BUILD, duration=0:00:01.249, duration_ms=1249, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 16:48:19], mode=BUILD, duration=0:00:05.675, duration_ms=5675, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 16:50:43], mode=BUILD, duration=0:00:01.191, duration_ms=1191, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 16:50:49], mode=BUILD, duration=0:00:05.677, duration_ms=5677, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 16:56:20], mode=PLATFORM_GENERATION, duration=0:00:03.223, duration_ms=3223, data={name=ZMOD_ADC_DAC}
+timestamp=[2023-05-24 16:56:20], mode=BUILD, duration=0:00:00.194, duration_ms=194, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=true}
+timestamp=[2023-05-24 16:56:20], mode=BUILD, duration=0:00:00.177, duration_ms=177, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=true}
+timestamp=[2023-05-24 16:57:09], mode=PLATFORM_GENERATION, duration=0:00:45.066, duration_ms=45066, data={name=ZMOD_ADC_DAC}
+timestamp=[2023-05-24 16:57:13], mode=BUILD, duration=0:00:03.446, duration_ms=3446, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 16:57:19], mode=BUILD, duration=0:00:05.791, duration_ms=5791, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 16:59:43], mode=BUILD, duration=0:00:01.198, duration_ms=1198, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 16:59:49], mode=BUILD, duration=0:00:05.663, duration_ms=5663, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 17:31:56], mode=BUILD, duration=0:00:01.264, duration_ms=1264, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 17:32:02], mode=BUILD, duration=0:00:05.678, duration_ms=5678, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 11:05:13], mode=WORKBENCH_START, duration=0:00:09.711, duration_ms=9711, data={}
+timestamp=[2023-05-25 11:05:13], mode=WORKBENCH_UI_INIT, duration=0:00:00.611, duration_ms=611, data={editors_count=17, platform_editors_count=3, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,ZMOD_ADC_DAC,ZMOD__DAC_ADC,ZMOD__DAC_ADC_system}
+timestamp=[2023-05-25 11:05:13], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.056, duration_ms=56, data={}
+timestamp=[2023-05-25 13:48:26], mode=PLATFORM_GENERATION, duration=0:00:28.985, duration_ms=28985, data={name=ZMOD_ADC_DAC}
+timestamp=[2023-05-25 13:48:29], mode=BUILD, duration=0:00:03.045, duration_ms=3045, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 13:48:35], mode=BUILD, duration=0:00:05.758, duration_ms=5758, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 14:05:06], mode=BUILD, duration=0:00:01.190, duration_ms=1190, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 14:05:12], mode=BUILD, duration=0:00:05.496, duration_ms=5496, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 14:40:50], mode=BUILD, duration=0:00:01.143, duration_ms=1143, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 14:40:56], mode=BUILD, duration=0:00:05.496, duration_ms=5496, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 14:46:50], mode=BUILD, duration=0:00:01.194, duration_ms=1194, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 14:46:56], mode=BUILD, duration=0:00:05.494, duration_ms=5494, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 14:47:53], mode=BUILD, duration=0:00:01.132, duration_ms=1132, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 14:47:59], mode=BUILD, duration=0:00:05.483, duration_ms=5483, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 14:49:53], mode=BUILD, duration=0:00:01.128, duration_ms=1128, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 14:49:59], mode=BUILD, duration=0:00:05.481, duration_ms=5481, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 14:53:14], mode=BUILD, duration=0:00:01.133, duration_ms=1133, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 14:53:20], mode=BUILD, duration=0:00:05.483, duration_ms=5483, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 15:01:40], mode=BUILD, duration=0:00:01.198, duration_ms=1198, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 15:01:46], mode=BUILD, duration=0:00:05.537, duration_ms=5537, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 15:02:29], mode=BUILD, duration=0:00:00.437, duration_ms=437, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 15:02:35], mode=BUILD, duration=0:00:05.492, duration_ms=5492, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 15:06:26], mode=BUILD, duration=0:00:01.186, duration_ms=1186, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 15:06:32], mode=BUILD, duration=0:00:05.499, duration_ms=5499, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 15:28:43], mode=BUILD, duration=0:00:01.256, duration_ms=1256, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 15:28:49], mode=BUILD, duration=0:00:05.561, duration_ms=5561, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 15:31:22], mode=BUILD, duration=0:00:00.437, duration_ms=437, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 15:31:27], mode=BUILD, duration=0:00:05.499, duration_ms=5499, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 15:34:51], mode=BUILD, duration=0:00:01.198, duration_ms=1198, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 15:34:57], mode=BUILD, duration=0:00:05.485, duration_ms=5485, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 15:39:19], mode=BUILD, duration=0:00:01.134, duration_ms=1134, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 15:39:25], mode=BUILD, duration=0:00:05.492, duration_ms=5492, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 15:41:34], mode=PLATFORM_GENERATION, duration=0:00:03.119, duration_ms=3119, data={name=ZMOD_ADC_DAC}
+timestamp=[2023-05-25 15:41:35], mode=BUILD, duration=0:00:00.239, duration_ms=239, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=true}
+timestamp=[2023-05-25 15:41:35], mode=BUILD, duration=0:00:00.118, duration_ms=118, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=true}
+timestamp=[2023-05-25 15:42:22], mode=PLATFORM_GENERATION, duration=0:00:44.419, duration_ms=44419, data={name=ZMOD_ADC_DAC}
+timestamp=[2023-05-25 15:42:25], mode=BUILD, duration=0:00:03.365, duration_ms=3365, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 15:42:31], mode=BUILD, duration=0:00:05.484, duration_ms=5484, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 15:43:27], mode=BUILD, duration=0:00:01.135, duration_ms=1135, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 15:43:33], mode=BUILD, duration=0:00:05.474, duration_ms=5474, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 15:51:21], mode=BUILD, duration=0:00:01.144, duration_ms=1144, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 15:51:26], mode=BUILD, duration=0:00:05.484, duration_ms=5484, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 15:54:31], mode=BUILD, duration=0:00:01.152, duration_ms=1152, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 15:54:37], mode=BUILD, duration=0:00:05.473, duration_ms=5473, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 16:06:31], mode=BUILD, duration=0:00:01.199, duration_ms=1199, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 16:06:36], mode=BUILD, duration=0:00:05.491, duration_ms=5491, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 16:12:54], mode=BUILD, duration=0:00:01.140, duration_ms=1140, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 16:13:00], mode=BUILD, duration=0:00:05.483, duration_ms=5483, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-26 11:47:57], mode=BUILD, duration=0:00:01.982, duration_ms=1982, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-26 11:48:05], mode=BUILD, duration=0:00:07.585, duration_ms=7585, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-26 11:54:41], mode=PLATFORM_GENERATION, duration=0:00:03.231, duration_ms=3231, data={name=ZMOD_ADC_DAC}
+timestamp=[2023-05-26 11:54:41], mode=BUILD, duration=0:00:00.202, duration_ms=202, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=true}
+timestamp=[2023-05-26 11:54:42], mode=BUILD, duration=0:00:00.170, duration_ms=170, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=true}
+timestamp=[2023-05-26 11:55:30], mode=PLATFORM_GENERATION, duration=0:00:45.672, duration_ms=45672, data={name=ZMOD_ADC_DAC}
+timestamp=[2023-05-26 11:55:34], mode=BUILD, duration=0:00:03.343, duration_ms=3343, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-26 11:55:40], mode=BUILD, duration=0:00:05.500, duration_ms=5500, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-26 11:59:12], mode=BUILD, duration=0:00:01.199, duration_ms=1199, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-26 11:59:18], mode=BUILD, duration=0:00:05.485, duration_ms=5485, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-26 12:02:25], mode=BUILD, duration=0:00:01.134, duration_ms=1134, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-26 12:02:31], mode=BUILD, duration=0:00:05.483, duration_ms=5483, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-26 12:22:55], mode=BUILD, duration=0:00:00.688, duration_ms=688, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-26 12:23:01], mode=BUILD, duration=0:00:05.540, duration_ms=5540, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-26 12:23:22], mode=BUILD, duration=0:00:01.126, duration_ms=1126, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-26 12:23:28], mode=BUILD, duration=0:00:05.472, duration_ms=5472, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-26 12:28:10], mode=BUILD, duration=0:00:01.132, duration_ms=1132, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-26 12:28:16], mode=BUILD, duration=0:00:05.492, duration_ms=5492, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-26 12:35:15], mode=BUILD, duration=0:00:01.185, duration_ms=1185, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-26 12:35:20], mode=BUILD, duration=0:00:05.492, duration_ms=5492, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-26 12:54:14], mode=BUILD, duration=0:00:01.215, duration_ms=1215, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-26 12:54:20], mode=BUILD, duration=0:00:05.533, duration_ms=5533, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-26 16:41:17], mode=PLATFORM_GENERATION, duration=0:00:01.598, duration_ms=1598, data={name=ZMOD_ADC_DAC}
+timestamp=[2023-05-26 16:41:27], mode=BUILD, duration=0:00:01.269, duration_ms=1269, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-26 16:41:37], mode=BUILD, duration=0:00:05.592, duration_ms=5592, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-26 16:59:30], mode=PLATFORM_GENERATION, duration=0:00:01.474, duration_ms=1474, data={name=ZMOD_ADC_DAC}
+timestamp=[2023-05-27 16:45:09], mode=PLATFORM_GENERATION, duration=0:00:03.488, duration_ms=3488, data={name=ZMOD_ADC_DAC}
+timestamp=[2023-05-27 16:45:43], mode=BUILD, duration=0:00:01.207, duration_ms=1207, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-27 16:45:49], mode=BUILD, duration=0:00:05.653, duration_ms=5653, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-27 16:46:52], mode=BUILD, duration=0:00:00.655, duration_ms=655, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-27 16:46:58], mode=BUILD, duration=0:00:05.485, duration_ms=5485, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-27 16:51:25], mode=BUILD, duration=0:00:00.662, duration_ms=662, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-27 16:51:31], mode=BUILD, duration=0:00:05.533, duration_ms=5533, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-27 16:52:15], mode=BUILD, duration=0:00:01.497, duration_ms=1497, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-27 16:52:20], mode=BUILD, duration=0:00:05.472, duration_ms=5472, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-27 16:57:44], mode=BUILD, duration=0:00:01.207, duration_ms=1207, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-27 16:57:50], mode=BUILD, duration=0:00:05.539, duration_ms=5539, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-27 16:58:53], mode=BUILD, duration=0:00:00.412, duration_ms=412, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-27 16:58:59], mode=BUILD, duration=0:00:05.533, duration_ms=5533, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-27 17:15:17], mode=BUILD, duration=0:00:01.144, duration_ms=1144, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-27 17:15:23], mode=BUILD, duration=0:00:05.483, duration_ms=5483, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-27 17:18:33], mode=BUILD, duration=0:00:00.429, duration_ms=429, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-27 17:18:39], mode=BUILD, duration=0:00:05.544, duration_ms=5544, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-27 17:24:04], mode=BUILD, duration=0:00:01.150, duration_ms=1150, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-27 17:24:10], mode=BUILD, duration=0:00:05.484, duration_ms=5484, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-27 17:28:27], mode=PLATFORM_GENERATION, duration=0:00:03.266, duration_ms=3266, data={name=ZMOD_ADC_DAC}
+timestamp=[2023-05-27 17:28:27], mode=BUILD, duration=0:00:00.245, duration_ms=245, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=true}
+timestamp=[2023-05-27 17:28:27], mode=BUILD, duration=0:00:00.166, duration_ms=166, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=true}
+timestamp=[2023-05-27 17:29:25], mode=PLATFORM_GENERATION, duration=0:00:45.753, duration_ms=45753, data={name=ZMOD_ADC_DAC}
+timestamp=[2023-05-27 17:29:28], mode=BUILD, duration=0:00:03.245, duration_ms=3245, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-27 17:29:34], mode=BUILD, duration=0:00:05.481, duration_ms=5481, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-27 17:48:01], mode=BUILD, duration=0:00:00.665, duration_ms=665, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-27 17:48:07], mode=BUILD, duration=0:00:05.666, duration_ms=5666, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-27 17:48:34], mode=BUILD, duration=0:00:00.666, duration_ms=666, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-27 17:48:40], mode=BUILD, duration=0:00:05.484, duration_ms=5484, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-27 17:49:07], mode=BUILD, duration=0:00:01.143, duration_ms=1143, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-27 17:49:13], mode=BUILD, duration=0:00:05.486, duration_ms=5486, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-27 17:52:31], mode=BUILD, duration=0:00:01.150, duration_ms=1150, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-27 17:52:37], mode=BUILD, duration=0:00:05.527, duration_ms=5527, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-27 17:54:59], mode=BUILD, duration=0:00:01.149, duration_ms=1149, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-27 17:55:05], mode=BUILD, duration=0:00:05.530, duration_ms=5530, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-27 17:58:15], mode=BUILD, duration=0:00:01.147, duration_ms=1147, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-27 17:58:21], mode=BUILD, duration=0:00:05.482, duration_ms=5482, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-27 18:02:14], mode=BUILD, duration=0:00:01.151, duration_ms=1151, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-27 18:02:20], mode=BUILD, duration=0:00:05.672, duration_ms=5672, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-27 18:04:05], mode=BUILD, duration=0:00:01.158, duration_ms=1158, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-27 18:04:11], mode=BUILD, duration=0:00:05.775, duration_ms=5775, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-27 18:19:14], mode=BUILD, duration=0:00:00.429, duration_ms=429, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-27 18:19:20], mode=BUILD, duration=0:00:05.542, duration_ms=5542, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-28 15:28:55], mode=WORKBENCH_START, duration=0:00:08.842, duration_ms=8842, data={}
+timestamp=[2023-05-28 15:28:55], mode=WORKBENCH_UI_INIT, duration=0:00:00.543, duration_ms=543, data={editors_count=2, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,ZMOD_ADC_DAC,ZMOD__DAC_ADC,ZMOD__DAC_ADC_system}
+timestamp=[2023-05-28 15:28:55], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.048, duration_ms=48, data={}
+timestamp=[2023-05-28 17:05:02], mode=BUILD, duration=0:00:02.021, duration_ms=2021, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-28 17:05:10], mode=BUILD, duration=0:00:08.021, duration_ms=8021, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-28 17:10:39], mode=BUILD, duration=0:00:01.206, duration_ms=1206, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-28 17:10:45], mode=BUILD, duration=0:00:05.592, duration_ms=5592, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-28 17:18:34], mode=BUILD, duration=0:00:01.213, duration_ms=1213, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-28 17:18:40], mode=BUILD, duration=0:00:05.609, duration_ms=5609, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-28 17:25:04], mode=BUILD, duration=0:00:00.420, duration_ms=420, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-28 17:25:10], mode=BUILD, duration=0:00:05.950, duration_ms=5950, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-28 17:33:42], mode=BUILD, duration=0:00:01.218, duration_ms=1218, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-28 17:33:48], mode=BUILD, duration=0:00:05.797, duration_ms=5797, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-28 17:38:49], mode=BUILD, duration=0:00:00.720, duration_ms=720, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-28 17:38:55], mode=BUILD, duration=0:00:05.657, duration_ms=5657, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-28 17:39:04], mode=BUILD, duration=0:00:01.207, duration_ms=1207, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-28 17:39:10], mode=BUILD, duration=0:00:05.587, duration_ms=5587, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-28 18:18:33], mode=BUILD, duration=0:00:01.203, duration_ms=1203, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-28 18:18:39], mode=BUILD, duration=0:00:05.602, duration_ms=5602, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-30 12:48:53], mode=BUILD, duration=0:00:01.889, duration_ms=1889, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-30 12:49:01], mode=BUILD, duration=0:00:07.952, duration_ms=7952, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-30 12:49:17], mode=BUILD, duration=0:00:00.909, duration_ms=909, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-30 12:49:23], mode=BUILD, duration=0:00:05.689, duration_ms=5689, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-30 12:50:15], mode=BUILD, duration=0:00:00.913, duration_ms=913, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-30 12:50:21], mode=BUILD, duration=0:00:05.662, duration_ms=5662, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-30 12:52:54], mode=BUILD, duration=0:00:00.899, duration_ms=899, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-30 12:53:00], mode=BUILD, duration=0:00:05.657, duration_ms=5657, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-30 12:53:51], mode=BUILD, duration=0:00:01.986, duration_ms=1986, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-30 12:53:56], mode=BUILD, duration=0:00:05.604, duration_ms=5604, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-30 12:57:27], mode=MISC, duration=0:00:04.561, duration_ms=4561, data={name=ZMOD__DAC_ADC_system, type=bif_creation}
+timestamp=[2023-05-30 16:16:17], mode=BUILD, duration=0:00:01.628, duration_ms=1628, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-30 16:16:23], mode=BUILD, duration=0:00:05.656, duration_ms=5656, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-31 11:16:26], mode=BUILD, duration=0:00:01.842, duration_ms=1842, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-31 11:16:35], mode=BUILD, duration=0:00:07.831, duration_ms=7831, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-31 11:40:22], mode=BUILD, duration=0:00:00.968, duration_ms=968, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-31 11:40:28], mode=BUILD, duration=0:00:05.663, duration_ms=5663, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-31 11:40:34], mode=BUILD, duration=0:00:01.924, duration_ms=1924, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-31 11:40:40], mode=BUILD, duration=0:00:05.664, duration_ms=5664, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-31 11:47:19], mode=BUILD, duration=0:00:01.626, duration_ms=1626, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-31 11:47:25], mode=BUILD, duration=0:00:05.662, duration_ms=5662, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-31 11:51:36], mode=BUILD, duration=0:00:01.567, duration_ms=1567, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-31 11:51:42], mode=BUILD, duration=0:00:05.661, duration_ms=5661, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-31 11:53:55], mode=BUILD, duration=0:00:01.638, duration_ms=1638, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-31 11:54:01], mode=BUILD, duration=0:00:05.664, duration_ms=5664, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-31 11:56:48], mode=BUILD, duration=0:00:01.635, duration_ms=1635, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-31 11:56:55], mode=BUILD, duration=0:00:05.844, duration_ms=5844, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-31 12:02:29], mode=BUILD, duration=0:00:01.631, duration_ms=1631, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-31 12:02:35], mode=BUILD, duration=0:00:05.662, duration_ms=5662, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-31 12:08:22], mode=BUILD, duration=0:00:01.635, duration_ms=1635, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-31 12:08:28], mode=BUILD, duration=0:00:05.599, duration_ms=5599, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-31 12:14:01], mode=BUILD, duration=0:00:01.633, duration_ms=1633, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-31 12:14:07], mode=BUILD, duration=0:00:05.604, duration_ms=5604, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-31 12:26:01], mode=BUILD, duration=0:00:01.635, duration_ms=1635, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-31 12:26:07], mode=BUILD, duration=0:00:05.679, duration_ms=5679, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-31 12:34:17], mode=BUILD, duration=0:00:01.623, duration_ms=1623, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-31 12:34:23], mode=BUILD, duration=0:00:05.596, duration_ms=5596, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-31 13:20:08], mode=WORKBENCH_START, duration=0:00:08.390, duration_ms=8390, data={}
+timestamp=[2023-05-31 13:20:09], mode=WORKBENCH_UI_INIT, duration=0:00:00.552, duration_ms=552, data={editors_count=2, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,ZMOD_ADC_DAC,ZMOD__DAC_ADC,ZMOD__DAC_ADC_system}
+timestamp=[2023-05-31 13:20:09], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.043, duration_ms=43, data={}
+timestamp=[2023-05-31 14:37:53], mode=BUILD, duration=0:00:03.705, duration_ms=3705, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-31 14:38:02], mode=BUILD, duration=0:00:08.212, duration_ms=8212, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-31 15:02:54], mode=BUILD, duration=0:00:01.703, duration_ms=1703, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-31 15:03:00], mode=BUILD, duration=0:00:05.599, duration_ms=5599, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-31 15:40:16], mode=BUILD, duration=0:00:01.635, duration_ms=1635, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-31 15:40:22], mode=BUILD, duration=0:00:05.607, duration_ms=5607, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-31 15:41:31], mode=BUILD, duration=0:00:01.570, duration_ms=1570, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-31 15:41:37], mode=BUILD, duration=0:00:05.593, duration_ms=5593, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-31 15:51:47], mode=BUILD, duration=0:00:01.634, duration_ms=1634, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-31 15:51:53], mode=BUILD, duration=0:00:05.601, duration_ms=5601, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-31 16:31:59], mode=WORKBENCH_START, duration=0:00:07.818, duration_ms=7818, data={}
+timestamp=[2023-05-31 16:32:00], mode=WORKBENCH_UI_INIT, duration=0:00:00.576, duration_ms=576, data={editors_count=3, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,ZMOD_ADC_DAC,ZMOD__DAC_ADC,ZMOD__DAC_ADC_system}
+timestamp=[2023-05-31 16:32:00], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.025, duration_ms=25, data={}
+timestamp=[2023-05-31 16:35:31], mode=BUILD, duration=0:00:01.685, duration_ms=1685, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-05-31 16:35:39], mode=BUILD, duration=0:00:07.437, duration_ms=7437, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-31 16:48:14], mode=WORKBENCH_START, duration=0:00:07.418, duration_ms=7418, data={}
+timestamp=[2023-05-31 16:48:14], mode=WORKBENCH_UI_INIT, duration=0:00:00.617, duration_ms=617, data={editors_count=3, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,ZMOD_ADC_DAC,ZMOD__DAC_ADC,ZMOD__DAC_ADC_system}
+timestamp=[2023-05-31 16:48:14], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.036, duration_ms=36, data={}
+timestamp=[2023-06-01 10:52:53], mode=BUILD, duration=0:00:02.867, duration_ms=2867, data={name=ZMOD__DAC_ADC, configuration=Debug, clean_build=false}
+timestamp=[2023-06-01 10:53:04], mode=BUILD, duration=0:00:10.671, duration_ms=10671, data={name=ZMOD__DAC_ADC_system, configuration=Debug, clean_build=false}
+timestamp=[2023-06-05 12:27:33], mode=WORKBENCH_START, duration=0:00:07.647, duration_ms=7647, data={}
+timestamp=[2023-06-05 12:27:34], mode=WORKBENCH_UI_INIT, duration=0:00:00.572, duration_ms=572, data={editors_count=3, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,ZMOD_ADC_DAC,ZMOD__DAC_ADC,ZMOD__DAC_ADC_system}
+timestamp=[2023-06-05 12:27:34], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.056, duration_ms=56, data={}

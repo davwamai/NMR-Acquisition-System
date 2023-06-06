@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="ZMOD__DAC_ADC" location="E:/SoC_Projects/Workspace/ZMOD__DAC_ADC" platform="C:/Users/dwamai/Desktop/duragactivity/ZMOD_ADC_DAC/export/ZMOD_ADC_DAC/ZMOD_ADC_DAC.xpfm" platformUID="xilinx:eclypse-z7::0.0(custom)" systemProject="ZMOD__DAC_ADC_system" sysConfig="ZMOD_ADC_DAC" runtime="cpp" cpu="domain_ps7_cortexa9_0" cpuInstance="ps7_cortexa9_0" os="standalone" language="CPP" mssSignature="1296e6a87cc67984a88fac59192d1247">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.1366664429">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.1447579916" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="empty_application"/>
+</sdkproject:SdkProject>

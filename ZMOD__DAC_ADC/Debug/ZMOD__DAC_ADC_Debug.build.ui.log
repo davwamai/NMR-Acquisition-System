@@ -1,0 +1,25 @@
+2023-06-01T10:52:50.247118200255-10:52:50 **** Incremental Build of configuration Debug for project ZMOD__DAC_ADC ****
+000-make all 
+000-make --no-print-directory pre-build
+000-a9-linaro-pre-build-step
+000-' '
+000-make --no-print-directory main-build
+000-'Building file: ../src/main.cpp'
+000-'Invoking: ARM v7 g++ compiler'
+000-arm-none-eabi-g++ -Wall -O0 -g3 -I"C:\Users\dwamai\Desktop\duragactivity\ZMOD__DAC_ADC\Debug/../../zmodlib/ZmodDAC1411" -I"C:\Users\dwamai\Desktop\duragactivity\ZMOD__DAC_ADC\Debug/../../zmodlib/ZmodADC1410" -I"C:\Users\dwamai\Desktop\duragactivity\ZMOD__DAC_ADC\Debug/../../zmodlib/Zmod" -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/dwamai/Desktop/duragactivity/ZMOD_ADC_DAC/export/ZMOD_ADC_DAC/sw/ZMOD_ADC_DAC/domain_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+000-'Finished building: ../src/main.cpp'
+000-' '
+000-'Building target: ZMOD__DAC_ADC.elf'
+000-'Invoking: ARM v7 g++ linker'
+000-arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/dwamai/Desktop/duragactivity/ZMOD_ADC_DAC/export/ZMOD_ADC_DAC/sw/ZMOD_ADC_DAC/domain_ps7_cortexa9_0/bsplib/lib -o "ZMOD__DAC_ADC.elf"  ./zmodlib/ZmodDAC1411/zmoddac1411.o  ./zmodlib/ZmodADC1410/zmodadc1410.o  ./zmodlib/Zmod/baremetal/reg/reg.o  ./zmodlib/Zmod/baremetal/intc/intc.o  ./zmodlib/Zmod/baremetal/flash/flash.o  ./zmodlib/Zmod/baremetal/dma/dma.o  ./zmodlib/Zmod/zmod.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+000-'Finished building target: ZMOD__DAC_ADC.elf'
+000-' '
+000-'Invoking: ARM v7 Print Size'
+000-arm-none-eabi-size ZMOD__DAC_ADC.elf  |tee "ZMOD__DAC_ADC.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000- 402856	   3752	  29228	 435836	  6a67c	ZMOD__DAC_ADC.elf
+000-'Finished building: ZMOD__DAC_ADC.elf.size'
+000-' '
+00255-
+10:52:53 Build Finished (took 2s.824ms)
+

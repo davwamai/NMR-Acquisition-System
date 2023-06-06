@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="ZMOD__DAC_ADC_system" key="programflash.hwplatform"/>
+	<item value="qspi-x4-single" key="ZMOD__DAC_ADC_system-flashType"/>
+	<item value="false" key="ZMOD__DAC_ADC_system-verifyFlash"/>
+	<item value="" key="ZMOD__DAC_ADC_system-offSet"/>
+	<item value="Auto Detect" key="ZMOD__DAC_ADC_system-device"/>
+	<item value="Local" key="ZMOD__DAC_ADC_system-target"/>
+	<item value="C:/Users/dwamai/Desktop/duragactivity/ZMOD_ADC_DAC/export/ZMOD_ADC_DAC/sw/ZMOD_ADC_DAC/boot/fsbl.elf" key="ZMOD__DAC_ADC_system-fsblFile"/>
+	<item value="C:/Users/dwamai/Desktop/duragactivity/ZMOD__DAC_ADC_system/_ide/bootimage/BOOT.bin" key="ZMOD__DAC_ADC_system-imgFile"/>
+	<item value="false" key="ZMOD__DAC_ADC_system-blankCheck"/>
+</section>

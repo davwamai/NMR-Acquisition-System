@@ -1,0 +1,10 @@
+10:52:53 **** Incremental Build of configuration Debug for project ZMOD__DAC_ADC_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 50897 C:/Users/dwamai/Desktop/duragactivity/ZMOD_ADC_DAC/export/ZMOD_ADC_DAC/ZMOD_ADC_DAC.xpfm domain_ps7_cortexa9_0 C:/Users/dwamai/Desktop/duragactivity/ZMOD__DAC_ADC_system/Debug/system.bif
+sdcard_gen --xpfm C:/Users/dwamai/Desktop/duragactivity/ZMOD_ADC_DAC/export/ZMOD_ADC_DAC/ZMOD_ADC_DAC.xpfm --sys_config ZMOD_ADC_DAC --bif C:/Users/dwamai/Desktop/duragactivity/ZMOD__DAC_ADC_system/Debug/system.bif --bitstream C:/Users/dwamai/Desktop/duragactivity/ZMOD__DAC_ADC/_ide/bitstream/ZMOD_ADC_DAC.bit --elf C:/Users/dwamai/Desktop/duragactivity/ZMOD__DAC_ADC/Debug/ZMOD__DAC_ADC.elf,ps7_cortexa9_0
+creating BOOT.BIN using C:/Users/dwamai/Desktop/duragactivity/ZMOD__DAC_ADC/_ide/bitstream/ZMOD_ADC_DAC.bit
+Running C:/Xilinx/Vitis/2020.1/bin/bootgen  -image C:/Users/dwamai/Desktop/duragactivity/ZMOD__DAC_ADC_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+10:53:04 Build Finished (took 10s.660ms)
+

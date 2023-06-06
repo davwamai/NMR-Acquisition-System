@@ -1,0 +1,196 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <string.h>
+#include <fstream>
+#include <iostream>
+#include <xil_printf.h>
+#include "xparameters.h"
+//#include "sleep.h"
+
+#include "zmoddac1411.h"
+#include "zmodadc1410.h"
+#include "zmod.h"
+
+#define TRANSFER_LEN	0x400 //changed from 1024
+#define MAX_BUFFER_SIZE 0x400
+#define MAX_FORMATTED_STRING_SIZE 50
+#define ZMOD_ADC_BASE_ADDR 	XPAR_ZMODADC_0_AXI_ZMODADC1410_1_S00_AXI_BASEADDR
+#define DMA_ADC_BASE_ADDR 	XPAR_ZMODADC_0_AXI_DMA_0_BASEADDR
+#define IIC_BASE_ADDR   XPAR_PS7_I2C_1_BASEADDR
+#define FLASH_ADDR_ADC   	0x30
+#define ZMOD_ADC_IRQ 		XPAR_FABRIC_ZMODADC_0_AXI_ZMODADC1410_1_LIRQOUT_INTR
+#define DMA_ADC_IRQ 		XPAR_FABRIC_ZMODADC_0_AXI_DMA_0_S2MM_INTROUT_INTR
+
+
+#define ZMOD_DAC_BASE_ADDR 	XPAR_ZMODDAC_0_AXI_ZMODDAC1411_V1_0_0_BASEADDR
+#define DMA_DAC_BASE_ADDR 	XPAR_ZMODDAC_0_AXI_DMA_1_BASEADDR
+#define FLASH_ADDR_DAC   	0x31
+#define DMA_DAC_IRQ 		XPAR_FABRIC_ZMODDAC_0_AXI_DMA_1_MM2S_INTROUT_INTR
+#define IIC_BASE_ADDR   XPAR_PS7_I2C_1_BASEADDR
+
+void writeADCData(ZMODADC1410 *padcZmod, std::string filename, uint32_t *acqBuffer, uint8_t channel, uint8_t gain, size_t length) {
+	char val_formatted[15];
+	char time_formatted[15];
+	std::ofstream file(filename);
+	int16_t valCh;
+	float val;
+	file << "Channel, Time\n";
+
+	for (size_t i = 0; i < length; i++) {
+		if (i < 100)
+		{
+			padcZmod->formatValue(time_formatted, i*10, "ns");
+		}
+		else
+		{
+			padcZmod->formatValue(time_formatted, (float)(i)/100.0, "us");
+		}
+
+		valCh = padcZmod->signedChannelData(channel, acqBuffer[i]);
+		val = padcZmod->getVoltFromSignedRaw(valCh, gain);
+		padcZmod->formatValue(val_formatted, 1000.0*val, "mV");
+
+		file << val_formatted << ", " << time_formatted << "\n";
+		std::cout << val_formatted << ", " << time_formatted << "\n";
+	}
+	file.close();
+}
+
+void formatADCDataOverUART(ZMODADC1410 *padcZmod, uint32_t *acqBuffer, uint8_t channel, uint8_t gain, size_t length, size_t bufferCount)// size_t bufferCount
+{
+    char val_formatted[15];
+    char time_formatted[15];
+    uint32_t valBuf;
+    int16_t valCh;
+    float val;
+
+    int N = 1; // Change this to control how many samples are skipped
+
+    for (size_t i = 0; i < length; i++)
+    {
+        if (i % N == 0)  // Only print every Nth sample
+        {
+            valBuf = acqBuffer[i];
+            valCh = padcZmod->signedChannelData(channel, valBuf);
+            val = padcZmod->getVoltFromSignedRaw(valCh, gain);
+            padcZmod->formatValue(val_formatted, 1000.0*val, "mV");
+
+            // Modify the time calculation to account for the current buffer number
+            float currentTime = (bufferCount * length + i) / 100.0; // supposed to be in microseconds but who knows
+            padcZmod->formatValue(time_formatted, currentTime, "us");
+
+            xil_printf("%s\t%s\r\n", val_formatted, time_formatted);
+//              xil_printf("%s\r\n", val_formatted);
+        }
+    }
+}
+
+
+
+
+
+//void ADCtoDAC0(uint8_t channel, uint8_t gain) { //prints 16384 samples
+//    ZMODADC1410 adcZmod(ZMOD_ADC_BASE_ADDR, DMA_ADC_BASE_ADDR, IIC_BASE_ADDR, FLASH_ADDR_ADC,
+//        ZMOD_ADC_IRQ, DMA_ADC_IRQ);
+//    ZMODDAC1411 dacZmod(ZMOD_DAC_BASE_ADDR, DMA_DAC_BASE_ADDR, IIC_BASE_ADDR, FLASH_ADDR_DAC,
+//        DMA_DAC_IRQ);
+//
+//    size_t bufferCount = 0;
+//    size_t length = 4e8; // 400 million samples for 4 seconds at 100 Msps
+//    uint32_t *acqBuffer = (uint32_t*)malloc(length * sizeof(uint32_t));
+//
+//    adcZmod.setGain(channel, gain);
+//    adcZmod.setTransferLength(length);
+//
+//    dacZmod.setOutputSampleFrequencyDivider(0);
+//    dacZmod.setTransferSize(length * sizeof(uint32_t));
+//
+//    adcZmod.start();
+//    dacZmod.start();
+//
+//    adcZmod.acquireImmediatePolling(acqBuffer, length);
+//
+//    dacZmod.stop();
+//    adcZmod.stop();
+//
+//    formatADCDataOverUART(&adcZmod, acqBuffer, channel, gain, length);
+//
+//    dacZmod.startDMATransfer(acqBuffer);
+//
+//    while(!dacZmod.isDMATransferComplete());
+//
+//    dacZmod.start();
+//
+//    free(acqBuffer);
+//}
+
+void ADCtoDAC(uint8_t channel, uint8_t gain) {
+    ZMODADC1410 adcZmod(ZMOD_ADC_BASE_ADDR, DMA_ADC_BASE_ADDR, IIC_BASE_ADDR, FLASH_ADDR_ADC,
+        ZMOD_ADC_IRQ, DMA_ADC_IRQ);
+    ZMODDAC1411 dacZmod(ZMOD_DAC_BASE_ADDR, DMA_DAC_BASE_ADDR, IIC_BASE_ADDR, FLASH_ADDR_DAC,
+        DMA_DAC_IRQ);
+
+    size_t length = 16384; // chunk size - adjust as needed
+
+    uint32_t *acqBuffer1 = (uint32_t*)malloc(length * sizeof(uint32_t));
+    uint32_t *acqBuffer2 = (uint32_t*)malloc(length * sizeof(uint32_t));
+
+    adcZmod.setGain(channel, gain);
+    adcZmod.setTransferLength(length);
+
+    dacZmod.setOutputSampleFrequencyDivider(0);
+    dacZmod.setTransferSize(length * sizeof(uint32_t));
+
+    adcZmod.start();
+    dacZmod.start();
+
+    // Start with first buffer
+
+    float voltageThreshold = 1.5f;
+    int16_t adcThreshold = adcZmod.getUnsignedRawFromVolt(voltageThreshold, gain);
+
+    adcZmod.acquireImmediatePolling(acqBuffer1, length);
+    size_t bufferCount = 0;
+
+    for (int i = 0; i < 24414; ++i) { // loop count is variable
+        if (i % 2 == 0) {
+            // acqBuffer1 is processing, acqBuffer2 is acquiring
+//          adcZmod.acquireImmediatePolling(acqBuffer2, length);
+
+
+//    		writeADCData(&adcZmod, "/home/eclypse/buffer_data.csv", acqBuffer1, channel, gain, length);
+            formatADCDataOverUART(&adcZmod, acqBuffer1, channel, gain, length, bufferCount);
+
+            dacZmod.startDMATransfer(acqBuffer1);
+            bufferCount++;
+        } else {
+            // acqBuffer2 is processing, acqBuffer1 is acquiring
+//          adcZmod.acquireImmediatePolling(acqBuffer1, length);
+        	adcZmod.acquireTriggeredPolling(acqBuffer2, channel, gain, voltageThreshold, i, length);
+
+//    		writeADCData(&adcZmod, "/home/eclypse/buffer_data.csv", acqBuffer2, channel, gain, length);
+            formatADCDataOverUART(&adcZmod, acqBuffer2, channel, gain, length, bufferCount);
+
+            dacZmod.startDMATransfer(acqBuffer2);
+            bufferCount++;
+        }
+        // Wait until the current DMA transfer is complete before starting the next one
+        while(!dacZmod.isDMATransferComplete());
+    }
+
+    dacZmod.stop();
+    adcZmod.stop();
+
+    free(acqBuffer1);
+    free(acqBuffer2);
+}
+
+int main() {
+	// channel 					CH1
+	// gain						LOW - Corresponds to HIGH input Range
+	// length					0x400
+	ADCtoDAC(0, 0);
+
+	return 0;
+}

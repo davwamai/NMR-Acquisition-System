@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root VersionMajor="1" VersionMinor="15">
+  <GenAppInfo Name="Vivado" Version="2020.1" CL="2902540" TimeStamp="Fri May 26 16:58:56 2023"/>
+  <DSA Vendor="xilinx" BoardId="eclypse-z7" Name="" VersionMajor="0" VersionMinor="0" Description="Vivado generated Hardware Platform" FeatureRomTimestamp="0" DcpLogicFunctionStripped="false" DcpEncrypt="false" Unified="true" Fixed="true" DefaultOutputType="hw_export">
+    <Build UsesPR="false" PlatformState="pre_synth" AcceleratorBinaryContent="bitstream" ValidBinaryContentValues="dcp,bitstream" TopModuleName="design_2_wrapper"/>
+    <Board Name="digilentinc.com:eclypse-z7:1.1" Vendor="digilentinc.com" Part="xc7z020clg484-1" BoardPart="digilentinc.com:eclypse-z7:part0:1.1">
+      <Images>
+        <Img Type="HDPI" File=""/>
+        <Img Type="MDPI" File=""/>
+        <Img Type="LDPI" File=""/>
+      </Images>
+    </Board>
+    <Devices>
+      <Device Name="fpga0" Type="8" FpgaDevice="zynq:xc7z020:clg484:-1">
+        <Core Name="OCL_REGION_0" Type="clc_region" ComputeUnits="60"/>
+      </Device>
+    </Devices>
+    <Files>
+      <File Type="FULL_BIT" Name="design_2_wrapper.bit"/>
+    </Files>
+  </DSA>
+</Root>
